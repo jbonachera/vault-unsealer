@@ -1,0 +1,15 @@
+package: github.com/jbonachera/vault-unsealer
+import:
+- package: github.com/hashicorp/consul
+  subpackages:
+  - api
+- package: github.com/hashicorp/vault
+  subpackages:
+  - api
+- package: github.com/spf13/cobra
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: github.com/scaleway/go-scaleway
+- package: github.com/scaleway/scaleway-cli
+  version: ~1.16.0
