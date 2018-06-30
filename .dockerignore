@@ -2,3 +2,4 @@
 .dockerignore
 Dockerfile
 Makefile
+vault-unsealer
